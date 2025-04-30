@@ -3,7 +3,7 @@ import Select from "../components/Select";
 
 const Nav = () => {
     return (
-        <div className=" shadow-sm sticky top-0 z-50">
+        <div className="shadow-sm mb-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex items-center space-x-3">
@@ -12,7 +12,7 @@ const Nav = () => {
                             <span className="text-violet-600">Units</span>
                         </a>
                     </div>
-                    <div className="flex items-center space-x-6 text-base-content">
+                    <div className="sm:flex items-center space-x-6 text-base-content hidden">
                         <Select />
                         <a
                             href="#"
