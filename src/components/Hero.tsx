@@ -7,7 +7,7 @@ const Hero = () => {
     const [openModal, setOpenModal] = useState<boolean>(false);
     
     return (
-        <div className={`flex flex-col lg:flex-nowrap items-center justify-center gap-8 h-[calc(100vh-69px)] sm:h-[calc(100vh-149px)] max-w-7xl md:mx-auto p-4 relative ${openModal ? `mx-4  h-[calc(100vh-160px)]` : ''}`}>
+        <div className={`flex flex-col lg:flex-nowrap items-center justify-center gap-8 h-[calc(100vh-69px)] sm:h-[calc(100vh-149px) max-w-7xl md:mx-auto p-4 relative ${openModal ? `mx-4  h-[calc(100vh-160px)]` : ''}`}>
         <div className={`w-full md:mx-auto`}>
                 <img src={conversion} alt={`conversion`} className={`w-full max-w-2/3 md:max-w-2/5 mx-auto `}/>
                 <h1 className={`text-2xl sm:text-3xl md:text-[2.5rem] lg:text-[3rem] font-bold bg-gradient-to-r from-violet-700 to-blue-600 text-transparent bg-clip-text mb-4 text-center`}>{selectedUnit} Converter</h1>
