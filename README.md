@@ -1,4 +1,4 @@
-# Unit Converter – Frontend
+# Hexer Units – Frontend
 
 This is the frontend of a **Unit Converter** web application. It provides a clean and user-friendly interface for selecting units, entering values, and viewing conversion results in real time.
 
