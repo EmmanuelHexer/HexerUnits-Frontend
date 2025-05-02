@@ -40,7 +40,7 @@ const Modal = ({setOpenModal} : any) => {
         <form
             onSubmit={handleSubmit}
             data-test-name={"conversion-modal"}
-            className={`bg-white w-full max-w-xl mx-auto px-4 py-5 md:px-8 md:py-10 rounded-2xl shadow-2xl space-y-5 transition-all text-black duration-300 absolute z-50`}
+            className={`fixed bg-white w-full max-w-xl mx-auto px-4 py-5 md:px-8 md:py-10 rounded-2xl shadow-2xl space-y-5 transition-all text-black duration-300 z-50`}
         >
             <div className={`flex justify-center relative`}>
                 <div className={`flex flex-col`}>
@@ -99,7 +99,7 @@ const Modal = ({setOpenModal} : any) => {
                 <button
                     type="submit"
                     data-test-name={"modal-convert-button"}
-                    className={`px-4 py-2 md:px-6 md:py-3 text-lg font-semibold text-white rounded-lg shadow-md bg-gradient-to-r from-blue-600 to-violet-600 hover:from-violet-700 hover:to-blue-700 transition-all duration-300`}
+                    className={`px-4 py-2 md:px-6 md:py-3 text-lg font-semibold text-white rounded-lg shadow-md bg-gradient-to-r from-purple-500 to-blue-500  hover:from-purple-500 hover:to-blue-700 transition-all duration-300`}
                 >
                     Convert
                 </button>

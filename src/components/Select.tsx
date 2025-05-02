@@ -8,11 +8,11 @@ const Select = () => {
             value={selectedUnit}
             data-test-name={"select-button"}
             onChange={(e) => setSelectedUnit(e.target.value)}
-            className="bg-gradient-to-r from-blue-600 to-violet-600 hover:from-violet-700 hover:to-blue-700 text-white bg-violet-600 font-bold text-sm px-3 py-2 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-violet-500 transition"
+            className="bg-gradient-to-r from-violet-500 to-blue-500 text-white font-semibold py-2 px-6 rounded-xl shadow-lg hover:translate-y-1 hover:shadow-xl active:translate-y-0 active:shadow-inner transition duration-200"
         >
             {Object.keys(EndPoints).map((label) => (
                 <option 
-                    className={`text-white`} 
+                    className={`bg-white text-black rounded-xl shadow-lg`} 
                     data-test-name={label}
                     key={label} 
                     value={label}
